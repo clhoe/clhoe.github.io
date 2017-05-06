@@ -21,7 +21,7 @@ theme_settings:
      </strong>
   header_text_feature_image:
   footer_text: >
-     Clhoe: La casa inteligente
+     <center><a href='clhoe.github.io'>Clhoe: La casa inteligente</a></center>
 
   # Icons
   rss: false
