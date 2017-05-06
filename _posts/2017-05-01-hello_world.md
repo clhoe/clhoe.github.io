@@ -2,8 +2,8 @@
 layout: post
 title: Hello World
 comments: true
-author: Daniel Lerch hostalot
-author_url: https://www.linkedin.com/in/daniellerch
+author: admin
+author_url: http://chloe.github.io
 ---
 
 Este es el primer post del proyecto Clhoe!
