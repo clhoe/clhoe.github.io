@@ -1,6 +1,6 @@
 ---
 layout: page
-title: chloe
+title: about
 permalink: /about/
 ---
 
