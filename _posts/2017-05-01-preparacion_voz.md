@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Preparación del sistema de reconocimiento y síntesis de voz
+title: Interfaz de voz
 comments: true
 author: admin
 author_url: http://chloe.github.io
