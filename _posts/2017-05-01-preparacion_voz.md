@@ -13,7 +13,7 @@ Para reconocer los comandos de voz usaremos la API de reconocimento de voz de Go
 
 Empezaremos instalando los paquetes necesarios:
 
-```bash
+```shell
 sudo apt-get install libportaudio2 libportaudiocpp0 portaudio19-dev
 sudo pip install pyaudio
 sudo pip install SpeechRecognition
