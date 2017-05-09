@@ -230,8 +230,10 @@ code,
 kbd,
 pre,
 samp {
-  font-family: monospace, monospace;
-  font-size: 1em;
+  ont-size: 0.9em;
+  color: #fff;
+  background-color: #272822;
+  font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
 }
 
 /* Forms
