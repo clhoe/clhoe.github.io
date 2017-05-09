@@ -14,6 +14,7 @@ Para reconocer los comandos de voz usaremos la API de reconocimento de voz de Go
 Empezaremos instalando los paquetes necesarios:
 
 ```shell
+
 sudo apt-get install portaudio19-dev libpulse-dev
 sudo pip install pyaudio
 sudo pip install SpeechRecognition
@@ -21,11 +22,13 @@ sudo pip install SpeechRecognition
 
 
 ```shell
+
 sudo apt-get install libttspico-utils
 sudo pip install pocketsphinx
 ```
 
 ```python                                                                              
+
 from pocketsphinx.pocketsphinx import Decoder                                    
                                                                                  
 config = Decoder.default_config()                                                
