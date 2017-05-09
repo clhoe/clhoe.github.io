@@ -24,7 +24,7 @@ theme_settings:
      <center><a href='http://clhoe.github.io'>Clhoe: la casa inteligente</a></center>
 
   # Icons
-  rss: false
+  rss: true
   email_address:
   behance:
   bitbucket:
@@ -46,7 +46,7 @@ theme_settings:
   youtube:
 
   # Scripts
-  google_analytics: UA-13280727-8
+  google_analytics: UA-98821758-1
   disqus_shortname: clhoe
   muut_community_name: # From muut.com settings, e.g. "muttcommunityname"
   katex: true # Enable if using math markup
