@@ -5,10 +5,10 @@ url: "http://clhoe.github.io" # the base hostname & protocol for your site
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: The Clhoe Project
+  title: Clhoe: La casa inteligente
   avatar: clhoe.png
   gravatar: # Email MD5 hash
-  description: "Chloe: La casa inteligente" # used by search engines
+  description: "Chloe: la casa inteligente" # used by search engines
 
   # Header and footer text
   header_text: >
@@ -21,7 +21,7 @@ theme_settings:
      </strong>
   header_text_feature_image:
   footer_text: >
-     <center><a href='http://clhoe.github.io'>Clhoe: La casa inteligente</a></center>
+     <center><a href='http://clhoe.github.io'>Clhoe: la casa inteligente</a></center>
 
   # Icons
   rss: false
