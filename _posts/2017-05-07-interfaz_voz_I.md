@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Interfaz de voz I
+title: Interfaz de voz (I)
 comments: true
 author: D
 author_url: #
