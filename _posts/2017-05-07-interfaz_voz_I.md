@@ -4,7 +4,7 @@ title: Interfaz de voz (I)
 comments: true
 author: D
 author_url: #
-show: false
+show: true
 ---
 
 Una de las funciones principales de una casa inteligente es la capacidad de hablar,  tanto para entender lo que le decimos como para responder a nuestras peticiones. En este artículo veremos como establecer la configuración básica del entorno de voz. Para ello usaremos el lenguaje de programación Python y supondremos que disponemos de un sistema operativo basado en Debian.
