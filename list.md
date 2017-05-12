@@ -4,13 +4,14 @@ title: archivo
 hide: false
 ---
 
-
-Interfaz de Voz:
+**Interfaz de Voz:**
  - [Interfaz de voz (I)](/2017/05/07/interfaz_voz_I).
  - Interfaz de voz (II).
  
- Comunicaciones:
+ **Comunicaciones:**
  - Acceso a dispositivos MODBUS.
  - Acceso a dispositivos TCP/IP.
  
- 
+ **Comunicaciones:**
+- Control de iluminación mediante voz.
+- Control de ACS mediante voz.
