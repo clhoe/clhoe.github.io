@@ -28,17 +28,7 @@ aplay test.wav
 
 ```
 
-
-
-
-
-
-
-
-
-
-
-Actualmente existen servicios de reconocimiento de voz de gran calidad, como los que ofrece [Google](https://cloud.google.com/speech/) o [Amazon](https://developer.amazon.com/alexa-voice-service). Pero en la medida de lo posible, me gustaría que este proyecto estuviese basado en software libre. Por lo tanto, aunque quizás en el futuro añada soporte para servicios de voz de terceros, partiremos del software [PocketSphinx](https://github.com/cmusphinx/pocketsphinx), de la [Carnegie Mellon University](http://www.cmu.edu/). Este softare y el modelo de voz en castellano no tiene la calidad de los servicios de Amazon y Google, pero nos sirve para empezar.
+El **reconocimiento de voz** es un poco más complicado.Actualmente existen servicios de reconocimiento de voz de gran calidad, como los que ofrece [Google](https://cloud.google.com/speech/) o [Amazon](https://developer.amazon.com/alexa-voice-service). Pero en la medida de lo posible, me gustaría que este proyecto estuviese basado en software libre. Por lo tanto, aunque quizás en el futuro añada soporte para servicios de voz de terceros, partiremos del software [PocketSphinx](https://github.com/cmusphinx/pocketsphinx), de la [Carnegie Mellon University](http://www.cmu.edu/). Este softare y el modelo de voz en castellano no tiene la calidad de los servicios de Amazon y Google, pero nos sirve para empezar.
 
 Empezaremos instalando los paquetes necesarios:
 
@@ -49,10 +39,12 @@ sudo pip install pyaudio
 sudo pip install SpeechRecognition
 sudo pip install pocketsphinx
 
-
 ```
 
-Veamos como podemos usar el reconocimeinto de voz:
+
+Veamos como podemos usar el reconociminto de voz. A continuación, pongo un pequeño script que configura PocketSphinx, abre el archivo de audio "test.wav" que hemos generado en el paso anterior e intenta traducir la voz a audio. 
+
+Para que funcione correctamente, debemos tener en el mismo directorio el modelo de voz en castellano, que se puede descargar desde [aquí](ttps://sourceforge.net/projects/cmusphinx/files/Acoustic%20and%20Language%20Models/Spanish/).
 
 
 
@@ -70,7 +62,7 @@ decoder = Decoder(config)
 # Decode streaming data.                                                         
 decoder = Decoder(config)                                                        
 decoder.start_utt()                                                              
-stream = open('message.wav', 'rb')                                               
+stream = open('test.wav', 'rb')                                               
 while True:                                                                      
   buf = stream.read()                                                            
   if buf:                                                                        
@@ -92,6 +84,24 @@ for w in words:
                                                                                  
 print string                                                                     
              
+```
+
+Si ejecutamos el script obtenemos algo como esto:
+
+```shell
+
+$ python voice_recognition.py
+buenos días qué tal estás 
+
+```
+
+
+Si queremos grabar un audio con nuestra voz, en lugar de usar la generada por PicoTTS, podemos hacerlo con el siguiente comando:
+
+```shell
+
+arecord test.wav
+
 ```
 
 
