@@ -111,8 +111,12 @@ hr {
 }
 a {
   color: $link-color;
-  //text-decoration: none;
+  text-decoration: none;
 }
+a:hover {
+  color: $hover-link-color;
+}
+
 .nav {
   list-style: none;
   margin: 0;
