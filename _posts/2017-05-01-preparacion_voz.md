@@ -104,6 +104,15 @@ $ arecord test.wav
 
 ```
 
+Con todo esto funcionando ya tenemos lo básico para empezar a trabajar con la voz. Sin embargo, puede que todo esto no funcione a la primera. Dependiendo de la distribución Linux que tengamos y, principalmente, del hardware, nos podemos encontrar con diferentes problemas. Resolverlos, queda como tarea para el lector.
+
+
+
+
+
+
+
+
 
 
 
