@@ -28,7 +28,7 @@ $ aplay test.wav
 
 ```
 
-El **reconocimiento de voz** es un poco más complicado.Actualmente existen servicios de reconocimiento de voz de gran calidad, como los que ofrece [Google](https://cloud.google.com/speech/) o [Amazon](https://developer.amazon.com/alexa-voice-service). Pero en la medida de lo posible, me gustaría que este proyecto estuviese basado en software libre. Por lo tanto, aunque quizás en el futuro añada soporte para servicios de voz de terceros, partiremos del software [PocketSphinx](https://github.com/cmusphinx/pocketsphinx), de la [Carnegie Mellon University](http://www.cmu.edu/). Este softare y el modelo de voz en castellano no tiene la calidad de los servicios de Amazon y Google, pero nos sirve para empezar.
+El **reconocimiento de voz** es un poco más complicado. Actualmente existen servicios de reconocimiento de voz de gran calidad, como los que ofrece [Google](https://cloud.google.com/speech/) o [Amazon](https://developer.amazon.com/alexa-voice-service). Pero en la medida de lo posible, me gustaría que este proyecto estuviese basado en software libre. Por lo tanto, aunque quizás en el futuro añada soporte para servicios de voz de terceros, partiremos del software [PocketSphinx](https://github.com/cmusphinx/pocketsphinx), de la [Carnegie Mellon University](http://www.cmu.edu/). Este softare y el modelo de voz en castellano no tiene la calidad de los servicios de Amazon y Google, pero nos sirve para empezar.
 
 Empezaremos instalando los paquetes necesarios:
 
