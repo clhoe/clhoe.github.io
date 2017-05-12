@@ -11,14 +11,7 @@ theme_settings:
   description: "Chloe: la casa inteligente" # used by search engines
 
   # Header and footer text
-  header_text: >
-     <strong>
-        <a class='tags' href='/voice-interface'>#voice-interface</a> &nbsp;&nbsp;&nbsp;
-        <a class='tags' href='/control'>#control</a> &nbsp;&nbsp;&nbsp;
-        <a class='tags' href='/metering'>#metering</a> &nbsp;&nbsp;&nbsp; 
-        <a class='tags' href='/protocols'>#protocols</a> &nbsp;&nbsp;&nbsp;  
-        <a class='tags' href='/ai'>#AI</a>         
-     </strong>
+  header_text:
   header_text_feature_image:
   footer_text: >
      <center><a href='http://clhoe.github.io'>Clhoe: la casa inteligente</a></center>
