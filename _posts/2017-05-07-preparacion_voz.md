@@ -2,7 +2,7 @@
 layout: post
 title: Interfaz de voz
 comments: true
-author: admin
+author: D
 author_url: #
 show: false
 ---
