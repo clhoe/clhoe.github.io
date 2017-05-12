@@ -1,6 +1,6 @@
 ---
 layout: page
-title: < clhoe >
+title: clhoe
 permalink: /about/
 ---
 
