@@ -36,7 +36,6 @@ Empezaremos instalando los paquetes necesarios:
 
 $ sudo apt-get install portaudio19-dev libpulse-dev
 $ sudo pip install pyaudio
-$ sudo pip install SpeechRecognition
 $ sudo pip install pocketsphinx
 
 ```
