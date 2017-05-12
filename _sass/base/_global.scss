@@ -114,7 +114,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: $hover-link-color;
+  color: $hover-link-color !important;
 }
 
 .nav {
