@@ -14,7 +14,7 @@ theme_settings:
   header_text:
   header_text_feature_image:
   footer_text: >
-     <center><a href='http://clhoe.github.io'>Clhoe: la casa inteligente</a></center>
+     <center>Copyright &copy; 2017 Clhoe: la casa inteligente</center>
 
   # Icons
   rss: true
