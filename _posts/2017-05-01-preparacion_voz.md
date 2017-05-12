@@ -15,7 +15,7 @@ Instalaremos:
 
 ```shell
 
-sudo apt-get install libttspico-utils alsa-utils
+$ sudo apt-get install libttspico-utils alsa-utils
 
 ```
 
@@ -23,8 +23,8 @@ Con lo que ya podemos generar un audió a partir de texto y reproducirlo con:
 
 ```shell
 
-pico2wave -l es-ES -w test.wav "Buenos días, ¿que tal estás?" 
-aplay test.wav
+$ pico2wave -l es-ES -w test.wav "Buenos días, ¿que tal estás?" 
+$ aplay test.wav
 
 ```
 
@@ -34,10 +34,10 @@ Empezaremos instalando los paquetes necesarios:
 
 ```shell
 
-sudo apt-get install portaudio19-dev libpulse-dev
-sudo pip install pyaudio
-sudo pip install SpeechRecognition
-sudo pip install pocketsphinx
+$ sudo apt-get install portaudio19-dev libpulse-dev
+$ sudo pip install pyaudio
+$ sudo pip install SpeechRecognition
+$ sudo pip install pocketsphinx
 
 ```
 
@@ -100,7 +100,7 @@ Si queremos grabar un audio con nuestra voz, en lugar de usar la generada por Pi
 
 ```shell
 
-arecord test.wav
+$ arecord test.wav
 
 ```
 
