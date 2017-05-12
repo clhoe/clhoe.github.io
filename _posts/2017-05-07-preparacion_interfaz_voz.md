@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Interfaz de voz (I)
+title: Preparación de la interfaz de voz
 comments: true
-author: D
+author: admin
 author_url: #
 show: true
 ---

@@ -5,8 +5,8 @@ hide: false
 ---
 
 **Interfaz de Voz:**
- - [Interfaz de voz (I)](/2017/05/07/interfaz_voz_I).
- - Interfaz de voz (II).
+ - [Preparación de la interfaz de voz](/2017/05/07/preparacion_interfaz_voz).
+ - Comandos de voz.
  
  **Comunicaciones:**
  - Acceso a dispositivos MODBUS.
