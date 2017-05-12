@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Interfaz de voz: preparación
+title: Preparación de la interfaz de voz
 comments: true
 author: admin
 author_url: #
