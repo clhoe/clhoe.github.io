@@ -3,13 +3,42 @@ layout: post
 title: Interfaz de voz
 comments: true
 author: admin
-author_url: http://chloe.github.io
+author_url: #
 show: false
 ---
 
-Uno de las funciones principales de una casa inteligente es la capacidad de hablar. Tanto para entender lo que le decimos como para responder a nuestras peticiones. En este artículo veremos como establecer la configuración básica del entorno de voz. Para ello usaremos el lenguaje de programación Python y supondremos que disponemos de un sistema operativo basado en Debian.
+Una de las funciones principales de una casa inteligente es la capacidad de hablar,  tanto para entender lo que le decimos como para responder a nuestras peticiones. En este artículo veremos como establecer la configuración básica del entorno de voz. Para ello usaremos el lenguaje de programación Python y supondremos que disponemos de un sistema operativo basado en Debian.
 
-Para reconocer los comandos de voz usaremos la API de reconocimento de voz de Google: Google Speech API v2. Esta API nos permite realizar 50 peticiones al día gratuitamente. 
+Empezaremos con la **síntesis de voz**. He probado diferentes herramientas disponibles para GNU/Linux, como pueden ser [Festival](http://www.cstr.ed.ac.uk/projects/festival/) o [eSpeak](http://espeak.sourceforge.net/). Sin embargo, la voz en castellano que más me ha gustado es la de Pico TTS. 
+
+Instalaremos:
+
+```shell
+
+sudo apt-get install libttspico-utils alsa-utils
+
+```
+
+Con lo que ya podemos generar un audió a partir de texto y reproducirlo con:
+
+```shell
+
+pico2wave -l es-ES -w test.wav "Buenos días, ¿que tal estás?" 
+aplay test.wav
+
+```
+
+
+
+
+
+
+
+
+
+
+
+Actualmente existen servicios de reconocimiento de voz de gran calidad, como los que ofrece [Google](https://cloud.google.com/speech/) o [Amazon](https://developer.amazon.com/alexa-voice-service). Pero en la medida de lo posible, me gustaría que este proyecto estuviese basado en software libre. Por lo tanto, aunque quizás en el futuro añada soporte para servicios de voz de terceros, partiremos del software [PocketSphinx](https://github.com/cmusphinx/pocketsphinx), de la [Carnegie Mellon University](http://www.cmu.edu/). Este softare y el modelo de voz en castellano no tiene la calidad de los servicios de Amazon y Google, pero nos sirve para empezar.
 
 Empezaremos instalando los paquetes necesarios:
 
@@ -18,16 +47,14 @@ Empezaremos instalando los paquetes necesarios:
 sudo apt-get install portaudio19-dev libpulse-dev
 sudo pip install pyaudio
 sudo pip install SpeechRecognition
-
-```
-
-
-```shell
-
-sudo apt-get install libttspico-utils
 sudo pip install pocketsphinx
 
+
 ```
+
+Veamos como podemos usar el reconocimeinto de voz:
+
+
 
 ```python                                                                              
 
@@ -66,4 +93,7 @@ for w in words:
 print string                                                                     
              
 ```
+
+
+
 
