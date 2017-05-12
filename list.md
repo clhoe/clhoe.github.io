@@ -12,6 +12,6 @@ hide: false
  - Acceso a dispositivos MODBUS.
  - Acceso a dispositivos TCP/IP.
  
- **Comunicaciones:**
+ **Casos prácticos:**
 - Control de iluminación mediante voz.
 - Control de ACS mediante voz.
